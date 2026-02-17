@@ -1,6 +1,6 @@
 [Assignment 1](https://docs.google.com/document/d/1ddgbgRVFMOPDXZpNac_O0GER04-yo2qcUXOVN3r2tYE/edit?tab=t.0)
 [Assignment 2](https://docs.google.com/document/d/1E5UJlzIKbthubM3SuAVkAT3m82-lZo05OkUcYQCc9ZY/edit?tab=t.0)
-[Assignment 3]()
+[Assignment 3](https://docs.google.com/document/d/1r6coF2ASWzwSez0CTMbLpJ9BaKA14YmYz3Ls1wiONO4/edit?tab=t.0)
 [Assignment 4]()
 [Assignment 5]()
 [Assignment 6]()
