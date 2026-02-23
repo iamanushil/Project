@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}To-Do - A4 Flask{% endblock %}
+{% block content %}
+<h1>To-Do Page</h1>
+<form id="todo-form" action="/submittodoitem" method="POST">
+  <p>
+    <label>Item Name <input type="text" name="itemName" required /></label>
+  </p>
+  <p>
+    <label>Item Description <textarea name="itemDescription" rows="3"></textarea></label>
+  </p>
+  <button type="submit">Submit</button>
+</form>
+<p id="result"></p>
+<script>
+  document.getElementById("todo-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const fd = new FormData(form);
+    fetch(form.action, { method: "POST", body: fd })
+      .then(r => r.json())
+      .then(d => { document.getElementById("result").textContent = d.success ? "Saved." : (d.error || "Error"); })
+      .catch(() => { document.getElementById("result").textContent = "Request failed."; });
+  });
+</script>
+{% endblock %}

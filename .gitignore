@@ -19,6 +19,10 @@ __pycache__/
 *.swp
 *.swo
 
+# Environment / secrets
+.env
+.env.local
+
 # OS
 .DS_Store
 Thumbs.db
