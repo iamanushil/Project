@@ -1,0 +1,3 @@
+Hello, this is content written by the Python program.
+Assignment A2: Python and Bash - Write to File.
+We used open() and write() to create and write to this file.
